@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<import src="../common/template.wxml"/>
+
+<view>
+  <template is="show_star" data="{{param}}"/>
+</view>

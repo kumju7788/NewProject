@@ -1,0 +1,9 @@
+<!--pages/common/template.wxml-->
+
+<template name="show_star">
+  <block wx:for="{{param.stars}}">
+    <image class="star-image" style="margin-left: 10rpx; width:36rpx; height:36rpx " 
+        src="{{item-(param.score-1) <= 0 ? param.srcImage_4 : (item-(param.score-1) >= 1 ? param.srcImage_0 :(item-(param.score-1) < 0.5 ? param.srcImage_3 : (item-(param.score-1) == 0.5 ? param.srcImage_2 : param.srcImage_1)))}}">
+    </image>
+  </block>
+</template>
