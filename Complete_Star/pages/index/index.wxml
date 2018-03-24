@@ -4,3 +4,7 @@
 <view>
   <template is="show_star" data="{{param}}"/>
 </view>
+
+<view> Update test 
+  <template is="show_star" data="{{param}}"/>
+</view>
